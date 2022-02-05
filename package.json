@@ -1,0 +1,33 @@
+{
+  "name": "block-builder",
+  "version": "1.0.0",
+  "description": "block-builder",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmeryn/block-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmeryn/block-builder/issues"
+  },
+  "homepage": "https://github.com/jimmeryn/block-builder#readme",
+  "dependencies": {
+    "@react-three/fiber": "^7.0.26",
+    "parcel": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.137.5"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/three": "^0.137.0",
+    "typescript": "^4.5.5"
+  }
+}
