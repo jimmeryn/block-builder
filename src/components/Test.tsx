@@ -1,8 +1,8 @@
-import * as THREE from "three";
-import React, { useRef, useState } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import * as THREE from 'three';
+import React, { useRef, useState } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
 
-const Box = (props: JSX.IntrinsicElements["mesh"]) => {
+const Box = (props: JSX.IntrinsicElements['mesh']) => {
   const mesh = useRef<THREE.Mesh>(null!);
   const [hovered, setHover] = useState(false);
   const [active, setActive] = useState(false);
@@ -18,7 +18,7 @@ const Box = (props: JSX.IntrinsicElements["mesh"]) => {
       onPointerOut={(event) => setHover(false)}
     >
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
+      <meshStandardMaterial color={hovered ? 'hotpink' : 'orange'} />
     </mesh>
   );
 };

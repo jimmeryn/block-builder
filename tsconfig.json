@@ -16,10 +16,7 @@
     "noImplicitAny": true,
     "skipLibCheck": true,
     "jsx": "react",
-    "module": "commonjs",
+    "module": "commonjs"
   },
-  "exclude": [
-      "bin",
-      "node_modules"
-  ]
+  "exclude": ["bin", "node_modules"]
 }
