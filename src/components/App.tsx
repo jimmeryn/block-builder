@@ -1,9 +1,10 @@
 import React from 'react';
-import { Test } from './Test';
 import './App.css';
+
+import { TestView } from './view/TestView';
 
 export const App = () => (
   <>
-    <Test />
+    <TestView />
   </>
 );

@@ -9,7 +9,6 @@
     "lib": ["es2018", "dom"],
     "sourceMap": true,
     "skipDefaultLibCheck": true,
-    "baseUrl": "./src",
     "downlevelIteration": true,
     "strict": true,
     "alwaysStrict": true,
